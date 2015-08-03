@@ -1,0 +1,6 @@
+An image to build the documentation of Morse
+
+The default job waits for two external volumes:
+  - (optionally) /src where /src/morse contains a git clone of Morse. If it is
+	not present, the script will do a complete clone, which can be quite slow.
+  - /out, /out/html will contain the documentation of Morse

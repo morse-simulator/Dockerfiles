@@ -1,1 +1,4 @@
 A set of docker images related to the Morse simulator. 
+
+- morse_doc allows to generate automatically the documentation of Morse master.
+  See morse_doc/README for more information.
