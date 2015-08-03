@@ -2,3 +2,5 @@ A set of docker images related to the Morse simulator.
 
 - morse_doc allows to generate automatically the documentation of Morse master.
   See morse_doc/README for more information.
+- morse_test allows to pass Morse unit-tests automatically. See
+  morse_test/README for more information.

@@ -1,0 +1,6 @@
+An image to execute the unit-tests from Morse
+
+The default job waits for two external volumes:
+  - (optionally) /src where /src/morse contains a git clone of Morse. If it is
+	not present, the script will do a complete clone, which can be quite slow.
+  - /out, /out/morse_tests_$(date ...).log contains the result of the tests.
